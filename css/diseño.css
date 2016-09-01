@@ -1,0 +1,15 @@
+#contenedor {
+	float: left;
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+}
+#me {
+  float: left;
+  width: 5px;
+  margin: auto;
+}
+#pie {
+  clear: both;
+}
+ 
