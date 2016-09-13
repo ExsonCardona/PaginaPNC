@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>JEPEDI</title>
 <link rel="shortcut icon" type="images/pnc.png" href="pnc.png">
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -59,7 +60,7 @@
 					
 					
 					<!----start-top-nav---->
-					 <nav class="top-nav">
+					 <nav class="top-nav ">
 						<ul class="top-nav">
 							<li class="active"><a href="#home" class="scroll">Bienvenidos</a></li>
 							<li class="page-scroll"><a href="#features" class="scroll">DEPEO</a></li>

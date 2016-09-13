@@ -2,12 +2,13 @@
 session_start();
 		if (!isset($_SESSION['valido']))
 		$_SESSION['valido']=0;
-$con = mysqli_connect('mysql.hostinger.es','u108268527_depeo','jesus*01','u108268527_depeo');
+$con = mysqli_connect('localhost','root','','pnc');
 
 $vUsuario = $_POST['user'];   
 $vPassword = $_POST['password'];
 
-$result = mysqli_query($con,"SELECT * FROM usuarios where usua='$vUsuario' and password='$vPassword'");
+$result = mysqli_query($con,"SELECT * FROM usuario 
+	where user='$vUsuario' and password='$vPassword'");
 
 if($row = mysqli_fetch_array($result))
 {     
@@ -16,7 +17,7 @@ if($row = mysqli_fetch_array($result))
   echo "USUARIO VALIDO";
 $_SESSION['valido']=1;
 $_SESSION['usuario']=$vUsuario;
-  header("Location:contenido.php");  
+  header("Location:pdf/com11.pdf");  
  }
  else
  {

@@ -1,6 +1,4 @@
-
-
-
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -74,7 +72,7 @@
 
         <!-----start-container---->
             <!----- start-header---->
-            <div id="home" class="header" position="top">
+            <div id="home" class="header">
         <div class="container">
           
           
@@ -83,13 +81,13 @@
             <ul class="top-nav">
                             <li class="active"><a href="#home" class="scroll">Bienvenido</a></li>
                             <li ><a href="semanal.php">Semanal</a></li>
-                            <li ><a href="cerrarsesion.php">Cerrar Sesion</a></li>
+                            <li ><a href="cerrarsesion.php">Inicio</a></li>
                        </ul>
             <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
           </nav>
           <div class="clearfix"> </div>
           <div class="contact-info">
-            <p><span><label> </label></span>2500-1131</p>
+            <p><span><label></label></span>2500-1131</p>
           </div>
         </div>
       </div>
@@ -150,6 +148,8 @@
     </div>
   </div>
 </div>
+
+
 
 <br>
 <br>
@@ -286,20 +286,53 @@
 </div>
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <div id="cont">
+ <form action = "com11.php" method="POST" class="form-horizontal login ">
+
+   <fieldset>
+    <legend>Iniciar Sesion</legend>
+     <div class="form-group">
+         <label class="col-lg-3 control-label">Usuario</label>
+         <div class="col-lg-2">
+         <input name="user" type="text" class="form-control"  placeholder="Usuario">
+     </div>
+     </div>
+
+     <div class="form-group">
+         <label class="col-lg-3 control-label">Contraseña</label>
+         <div class="col-lg-2">
+         <input name="password" type="password" class="form-control"  placeholder="Contraseña">
+     </div>
+     </div>
+
+     <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+              <button name="login"type="submit" value="login" class="btn btn-info">Ingresar</button>
+            </div>
+     </div>
+    </fieldset>
+    </form>
+   </div>
+
+ <div id="cont">
 
 
-
-
-
-
-
-
-
+ </div>
 
 <div id="pie">
 <div class="copy">
            <p>&copy; Copyright 2016 todos los derechos reservados <a href="http://www.facebook.com/Exson.Cardona" target="_blank"> ESCF</a></p>
         </div>
         </div>
+
 </body>
 </html>

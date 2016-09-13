@@ -13,3 +13,9 @@
   clear: both;
 }
  
+#cont {
+  float: right;
+  width: 1000px;
+  height: 1200px;
+  margin: auto;
+}
